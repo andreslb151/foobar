@@ -25,7 +25,11 @@
       "url": "https://foobarsms.herokuapp.com/add"
     }
   },
-  "configurationArguments": {} 
+  "configurationArguments": {
+    "publish": { 
+      "url": "https://foobarsms.herokuapp.com/publish"
+    }
+  } 
 
 
 }
