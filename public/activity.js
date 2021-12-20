@@ -4,6 +4,7 @@ var connection = new Postmonger.Session();
 connection.trigger('ready');
 
 connection.on('initActivity', function( data ) {
+  const tagin = new Tagin(document.querySelector('#txtCampos'), { });
   document.getElementById( 'configuration' ).value = JSON.stringify( data, null, 2 );
 });
 
