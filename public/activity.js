@@ -1,5 +1,5 @@
 var connection = new Postmonger.Session();
-const tagin = new Tagin(document.querySelector('#txtCampos'), { });
+//const tagin = new Tagin(document.querySelector('#txtCampos'), { });
 
 // Startup Sequence
 connection.trigger('ready');
