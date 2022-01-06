@@ -22,7 +22,7 @@
         { "FirstName": "{{Contact.Attribute.02102020_AniversarioPrimeraCompra-100-200.nombre}}" },
         { "LastName": "{{Contact.Attribute.02102020_AniversarioPrimeraCompra-100-200.apellido}}" }
       ],
-      "url": "https://foobarsms.herokuapp.com/add"
+      "url": "https://foobarsms.herokuapp.com/envia_mensaje"
     }
   },
   "configurationArguments": {
